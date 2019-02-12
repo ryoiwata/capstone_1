@@ -12,3 +12,6 @@ Things need to be done:
   Working on Webscraping
   Was able to scrape the name of the book and the country of the authors
   Need to add something that handles cases of anonymous authors
+
+~17:00:
+  More Webscraping
