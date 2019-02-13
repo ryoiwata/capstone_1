@@ -16,4 +16,10 @@ Things need to be done:
 ~18:30:
   More Webscraping, trying to generalize by moving to a py file from jupyter notebook
 
+goal for 2/13:
+~Collect more data
+~Play around with selenium
+~Have a study built
+~
+
 Have study by 2/13 by 4
