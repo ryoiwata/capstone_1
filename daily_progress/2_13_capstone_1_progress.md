@@ -1,6 +1,10 @@
 Things need to be done:
   1. Figure out what I need to do
   2. Maybe go to postgres from mongos to make it relational
+  3. Create a Pandas database
+  4. Get some initial studies via MAtplotlib
+  5. Have a pretty mark down 
+
 
 
 
