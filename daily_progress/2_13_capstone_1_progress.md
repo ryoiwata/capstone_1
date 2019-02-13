@@ -14,4 +14,4 @@ Plan:
 ~7:05 Call it a day
 
 Actual Log:
-~12:30 Figuring out Mongos, Got the webscraper to put information into the Mongos DB.
+~12:30 Figuring out Mongos, Got the webscraper to put information into the Mongos DB. Now figuring out Selenium
