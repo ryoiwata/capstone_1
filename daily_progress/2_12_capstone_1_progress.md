@@ -13,7 +13,7 @@ Things need to be done:
   Was able to scrape the name of the book and the country of the authors
   Need to add something that handles cases of anonymous authors
 
-~18:00:
-  More Webscraping
+~18:30:
+  More Webscraping, trying to generalize by moving to a py file from jupyter notebook
 
 Have study by 2/13 by 4
