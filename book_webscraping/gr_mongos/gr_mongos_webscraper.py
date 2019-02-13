@@ -5,6 +5,12 @@ from contextlib import closing
 import json
 import time
 
+from pymongo import MongoClient
+# Create instance of the MongoClient class
+client = MongoClient()
+database = client['capstone_1_db']   # Database name (to connect to)
+collections = database['good_reads_collections'] # Collection name (to use)
+
 pg_num = 1
 
 
@@ -64,17 +70,22 @@ for obj in soup.findAll('div',class_='left'):
         data_birth_country = data_birth_country[3:].strip()
     elif data_birth_country == "":
         data_birth_country = "N/A"
+    collections.insert_one({"title" : data_title, "author" : data_author, "language" : data_language, "birth_country" : data_birth_country, "current_readers" : data_book_currently_reading, "ratings_number" : data_book_ratings})
+
+
     # print(data_birth_country)
 
-    print(data_title)
-    print(type(data_title))
-    print(data_author)
-    print(type(data_author))
-    print(data_language)
-    print(type(data_language))
-    print(data_birth_country)
-    print(type(data_birth_country))
-    print(data_book_currently_reading)
-    print(type(data_book_currently_reading))
-    print(data_book_ratings)
-    print(type(data_book_ratings))
+
+
+    # print(data_title)
+    # print(type(data_title))
+    # print(data_author)
+    # print(type(data_author))
+    # print(data_language)
+    # print(type(data_language))
+    # print(data_birth_country)
+    # print(type(data_birth_country))
+    # print(data_book_currently_reading)
+    # print(type(data_book_currently_reading))
+    # print(data_book_ratings)
+    # print(type(data_book_ratings))
