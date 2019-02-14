@@ -5,10 +5,13 @@ from pymongo import MongoClient
 client = MongoClient()
 database = client['capstone_1_db']   # Database name (to connect to)
 collections = database['good_reads_collections'] # Collection name (to use)
+try:
+    collections.delete_many({})
+except:
+    pass
+collections = database['good_reads_collections'] # Collection name (to use)
 
 pg_num = 1
-
-
 gr_webpage = requests.get('https://www.goodreads.com/shelf/show/currently-reading?page={}'.format(pg_num))
 soup = BeautifulSoup(gr_webpage.text, 'html.parser')
 for obj in soup.findAll('div',class_='left'):
@@ -65,24 +68,4 @@ for obj in soup.findAll('div',class_='left'):
         data_birth_country = data_birth_country[3:].strip()
     elif data_birth_country == "":
         data_birth_country = "N/A"
-    collections.insert_one({"title" : data_title, "author" : data_author, "language" : data_language, "birth_country" : data_birth_country, "current_readers" : data_book_currently_reading, "ratings_number" : data_book_ratings, "book_year": data_book_year})
-
-
-    # print(data_birth_country)
-
-
-
-    print(data_title)
-    print(type(data_title))
-    print(data_author)
-    print(type(data_author))
-    print(data_language)
-    print(type(data_language))
-    print(data_birth_country)
-    print(type(data_birth_country))
-    print(data_book_currently_reading)
-    print(type(data_book_currently_reading))
-    print(data_book_ratings)
-    print(type(data_book_ratings))
-    print(data_book_year)
-    print(type(data_book_year))
+    collections.insert_one({"title" : data_title, "author" : data_author, "birth_country" : data_birth_country, "current_readers" : data_book_currently_reading, "ratings_number" : data_book_ratings, "book_year": data_book_year})
