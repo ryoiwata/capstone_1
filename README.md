@@ -1,4 +1,4 @@
-# capstone_1
+# Where are the Best Selling Authors Born?
 
 # The Problem
 People read books, but where are the authors coming from?
@@ -11,5 +11,5 @@ Maybe there's a significant difference between where people are coming from in t
 # Database
 
 # EDA
-
+Playing around with pandas and seeing if there is any correlations
 # Study

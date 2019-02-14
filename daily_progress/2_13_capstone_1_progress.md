@@ -3,7 +3,7 @@ Things need to be done:
   2. Maybe go to postgres from mongos to make it relational
   3. Create a Pandas database
   4. Get some initial studies via MAtplotlib
-  5. Have a pretty mark down 
+  5. Have a pretty mark down
 
 
 
@@ -19,3 +19,4 @@ Plan:
 
 Actual Log:
 ~12:30 Figuring out Mongos, Got the webscraper to put information into the Mongos DB. Now figuring out Selenium
+~5:30 Presenting our initial study
