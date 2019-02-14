@@ -7,4 +7,5 @@ Things need to be done:
 Log:
 
 ~12:15 Play around with demographics data and looking at the data I have
-~3 Cleaning up Jupyter notebook for presentation
+~15:00 Cleaning up Jupyter notebook for presentation
+~17:00 Selenium
