@@ -6,4 +6,4 @@ Things need to be done:
 
 Log:
 
-~11 EDA
+~11:30 Play around with demographics data

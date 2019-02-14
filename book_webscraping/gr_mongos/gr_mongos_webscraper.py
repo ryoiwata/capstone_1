@@ -33,7 +33,7 @@ for obj in soup.findAll('div',class_='left'):
     str_book_ratings = book_year_ratings_list[1].strip().split()[0]
     data_book_ratings = int("".join(str_book_ratings.split(",")))
     # print(data_book_ratings)
-    data_book_year = book_year_ratings_list[2].strip().split()[1]
+    data_book_year = int(book_year_ratings_list[2].strip().split()[1])
     # print(data_book_year)
 
     book_sub_page = requests.get(link_book)
@@ -70,22 +70,24 @@ for obj in soup.findAll('div',class_='left'):
         data_birth_country = data_birth_country[3:].strip()
     elif data_birth_country == "":
         data_birth_country = "N/A"
-    collections.insert_one({"title" : data_title, "author" : data_author, "language" : data_language, "birth_country" : data_birth_country, "current_readers" : data_book_currently_reading, "ratings_number" : data_book_ratings})
+    collections.insert_one({"title" : data_title, "author" : data_author, "language" : data_language, "birth_country" : data_birth_country, "current_readers" : data_book_currently_reading, "ratings_number" : data_book_ratings, "book_year": data_book_year})
 
 
     # print(data_birth_country)
 
 
 
-    # print(data_title)
-    # print(type(data_title))
-    # print(data_author)
-    # print(type(data_author))
-    # print(data_language)
-    # print(type(data_language))
-    # print(data_birth_country)
-    # print(type(data_birth_country))
-    # print(data_book_currently_reading)
-    # print(type(data_book_currently_reading))
-    # print(data_book_ratings)
-    # print(type(data_book_ratings))
+    print(data_title)
+    print(type(data_title))
+    print(data_author)
+    print(type(data_author))
+    print(data_language)
+    print(type(data_language))
+    print(data_birth_country)
+    print(type(data_birth_country))
+    print(data_book_currently_reading)
+    print(type(data_book_currently_reading))
+    print(data_book_ratings)
+    print(type(data_book_ratings))
+    print(data_book_year)
+    print(type(data_book_year))
