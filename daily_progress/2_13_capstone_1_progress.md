@@ -5,18 +5,12 @@ Things need to be done:
   4. Get some initial studies via MAtplotlib
   5. Have a pretty mark down
 
-
-
-
 Plan:
 
-~12 Figure out how to pipeline to Mongos
+~12 Figure out how to pipeline to Mongos, Got the webscraper to put information into the Mongos DB. Now figuring out Selenium
 ~1 Make a study
 ~2 Lunch
 ~3 Lecture With Cristina
 ~4 Have a study done by now + Snack?
-~7:05 Call it a day
-
-Actual Log:
-~12:30 Figuring out Mongos, Got the webscraper to put information into the Mongos DB. Now figuring out Selenium
 ~5:30 Presenting our initial study
+~7:05 Call it a day
