@@ -6,4 +6,4 @@ Things need to be done:
 
 Log:
 
-~11:30 Play around with demographics data
+~12:15 Play around with demographics data and looking at the data I have

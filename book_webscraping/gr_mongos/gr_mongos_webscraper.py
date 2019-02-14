@@ -1,10 +1,5 @@
 import requests
-import re
 from bs4 import BeautifulSoup
-from contextlib import closing
-import json
-import time
-
 from pymongo import MongoClient
 # Create instance of the MongoClient class
 client = MongoClient()

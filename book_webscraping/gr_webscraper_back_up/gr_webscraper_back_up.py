@@ -1,4 +1,3 @@
-"""
 gr_webpage = requests.get('https://www.goodreads.com/shelf/show/currently-reading?page={}'.format(pg_num))
 soup = BeautifulSoup(gr_webpage.text, 'html.parser')
 
@@ -67,4 +66,3 @@ print(data_book_ratings)
 print(data_book_year)
 # print(link_author)
 # print(link_book)
-"""
