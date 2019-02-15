@@ -8,4 +8,4 @@ Log:
 
 ~12:15 Play around with demographics data and looking at the data I have
 ~15:00 Cleaning up Jupyter notebook for presentation
-~17:00 Selenium
+~18:30 Selenium
