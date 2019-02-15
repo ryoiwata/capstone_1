@@ -1,6 +1,6 @@
 # Good Reads Capstone
 
-<img src="./images/goodreads_wide-e23f6858b6bf20dcaf8493237a214a0e.png"
+<img src="./images/1454549184-1454549184_goodreads_misc.jpg"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
@@ -17,6 +17,22 @@
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />  
 
+
+# Tools Used
+
+Python Programming and the Beautiful Soup, Pandas, and Matplotlib Libraries
+
+<img src="./images/10.1.jpg"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
+<img src="./images/pandas_logo.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
+<img src="./images/logo2.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
 People read books, but where are the authors coming from?
 
