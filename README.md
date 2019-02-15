@@ -9,6 +9,12 @@
 To utilize webscraping to better understand the characteristics of books in Goodreads's Best Books Ever list. (https://www.goodreads.com/list/show/1.Best_Books_Ever) This is a user generated list where the community is encouraged to vote on books that are the best to them. There is no limit on how many books a user can vote for. I scraped for the title, author name, author's country of origin, genre, year of book release, number of votes, average ratings, number of ratings. There was information of demographics of Good Readers user based on country that was used. This information was provided by Otis Chandler, CEO of GoodReads on a GoodReads forum. (https://www.goodreads.com/topic/show/346243-members-by-country?comment_id=17392983#comment_17431975)
 
 
+# Questions
+
+1. What are the general characteristics of books in the Good Reads Best Books list?
+
+2. Are American Authors over represented in the Good Reads Best Books list?
+
 # Page Set Up
 <img src="./images/screenshot_best_books.png"
      alt="Markdown Monster icon"
@@ -25,7 +31,7 @@ To utilize webscraping to better understand the characteristics of books in Good
 
 # Tools Used
 
-Python Programming and the Beautiful Soup, Pandas, and Matplotlib Libraries
+Python Programming and the Beautiful Soup, Pandas, and Matplotlib Libraries. Websraped data was pipelined into MongosDB.
 
 <img src="./images/10.1.jpg"
      alt="Markdown Monster icon"
@@ -39,7 +45,9 @@ Python Programming and the Beautiful Soup, Pandas, and Matplotlib Libraries
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
-People read books, but where are the authors coming from?
+ <img src="./images/MongoDB.png"
+      alt="Markdown Monster icon"
+      style="float: left; margin-right: 10px;" />
 
 # Web Scraping
 Used Python Library of requests and Beautiful Soup
@@ -50,6 +58,20 @@ Pipelined the webscraping to go through a Mongos Database.
 
 # EDA
 
-# Study
+Check Jupyter Notebook file Capstone_1_Ryo_Iwata.ipynb for more details
+
+1. How are the books distributed by genre?
+  -Plotted the number of votes by genre in a bar graph.
+
+2. How are the books distributed by country of author?
+  -Plotted the number of votes by country of author in a bar graph.
+  -Made a pie chart of certain countries to see how books are distributed by certain country
+
+3. How are the books distributed by year of release?
+  -Plotted the number of votes by year of release in a bar graph.
+  -Made a pie chart of certain years to see how books are distributed by certain year
+
+4. What's the relationship between number of users in a country and the number of votes of a book grouped by country?
+  -Plotted the number of votes of book grouped by birthplace of an author against the number of users in a country matched by country name
 
 #Looking Beyond
