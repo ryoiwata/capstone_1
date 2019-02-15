@@ -76,17 +76,17 @@ Check Jupyter Notebook file Capstone_1_Ryo_Iwata.ipynb for more details
 
 # What was learned?
 
--That working with data that has a group that overwhelms the other groups is difficult
--I have not learned whether or not American authors are over represented in the GoodReads Best Books list
--That a handful of books can dominate over the share of votes by country and by year 
+1. That working with data that has a group that overwhelms the other groups is difficult
+2. I have not learned whether or not American authors are over represented in the GoodReads Best Books list
+3. That a handful of books can dominate over the share of votes by country and by year
 
 # Things to have done differently
 
--Not to allocate so much time to figuring out how to webscrape.
--Look into the countries that are not the United States and United Kingdom more closely
--Have concrete questions to be asked that can be tested
--Plan, plan, plan to make the best out of limited human time
+1. Not to allocate so much time to figuring out how to webscrape.
+2. Look into the countries that are not the United States and United Kingdom more closely
+3. Have concrete questions to be asked that can be tested
+4. Plan, plan, plan to make the best out of limited human time
 
 # Next Step
 
--Figure out what statistical test is most appropriate for the given dataset.
+1. Figure out what statistical test is most appropriate for the given dataset.
