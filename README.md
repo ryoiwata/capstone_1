@@ -4,7 +4,19 @@
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
-#Setting
+# Page Set Up
+<img src="./images/screenshot_best_books.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
+<img src="./images/screenshot_book.png"
+    alt="Markdown Monster icon"
+    style="float: left; margin-right: 10px;" />
+
+<img src="./images/screenshot_author.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />  
+
 
 People read books, but where are the authors coming from?
 
